@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diane's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Welcome to my Portfolio</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link contact-btn">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="about" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Diane Oxales</span></h1>
+                    <p class="hero-description"><i>Second-year Computer Science student at Carleton University. I thrive on turning complex ideas into user-friendly solutions. I am eager to apply my skills in real-world settings, contribute to meaningful projects, and continue growing as a developer and team player.</i></p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="primary-btn">Contact Me</a>
+                        <a href="dianeoxales.pdf" class="secondary-btn">Download CV</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/diane-oxales-265b31342/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/dianeoxales_/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/dianeoxales" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="DSC02560.jpeg" alt="Diane Oxales" class="profile-image">
+                        <div class="floating-card top">
+                            <i class="fas fa-code"></i>
+                            <span>Developer</span>
+                        </div>
+                        <div class="floating-card bottom">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>CS Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section --> 
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <!-- Languages -->
+                <div class="skill-card border-red">
+                    <div class="skill-content">
+                        <i class="fa-solid fa-code skill-icon red"></i>
+                        <h3>Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><b>HTML</b></div>
+                            <div class="skill-item"><b>CSS</b></div>
+                            <div class="skill-item"><b>C</b></div>
+                            <div class="skill-item"><b>C++</b></div>
+                            <div class="skill-item"><b>JavaScript</b></div>
+                            <div class="skill-item"><b>Python</b></div>
+                            <div class="skill-item"><b>Java</b></div>
+                            <div class="skill-item"><b>Demo</b></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Operating Systems -->
+                <div class="skill-card border-blue">
+                    <div class="skill-content">
+                        <i class="fa-solid fa-desktop skill-icon blue"></i>
+                        <h3>Operating Systems</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><b>Windows</b></div>
+                            <div class="skill-item"><b>MacOS</b></div>
+                            <div class="skill-item"><b>Linux</b></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="skill-card border-green">
+                    <div class="skill-content">
+                        <i class="fa-solid fa-wrench skill-icon green"></i>
+                        <h3>Tools</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><b>MS Tools</b></div>
+                            <div class="skill-item"><b>Google Tools</b></div>
+                            <div class="skill-item"><b>VSCode</b></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div class="skill-card border-purple">
+                    <div class="skill-content">
+                        <i class="fa-solid fa-brain skill-icon purple"></i>
+                        <h3>Soft Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><b>Critical Thinking</b></div>
+                            <div class="skill-item"><b>Problem-Solving</b></div>
+                            <div class="skill-item"><b>Effective Communication</b></div>
+                            <div class="skill-item"><b>Teamwork</b></div>
+                            <div class="skill-item"><b>Leadership</b></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects  -->
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <h2 class="section-title">My Projects</h2>
+            
+            <!-- Updated Projects Grid with Correct GitHub Links -->
+<div class="projects-grid">
+    <!-- Flight Simulator Project -->
+    <div class="project-card">
+        <div class="project-image">
+            <img src="flightsimulator.jpeg" alt="Flight Simulator">
+            <div class="project-overlay">
+                <div class="project-tech">
+                    <span class="tech-tag">C</span>
+                    <span class="tech-tag">OpenGL</span>
+                    <span class="tech-tag">Full-Stack</span>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <h3>Flight Simulator</h3>
+            <p>A full-stack Flight Simulator with C</p>
+            <div class="project-links">
+                <a href="https://github.com/dianeoxales/CUinSpace" class="project-link github">
+                    <i class="fab fa-github"></i>
+                    Main Repo
+                </a>
+                <a href="https://github.com/dianeoxales/CUinSpace-Flight-Simulator" class="project-link github">
+                    <i class="fab fa-github"></i>
+                    Simulator Repo
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auto Park GUI Project -->
+    <div class="project-card">
+        <div class="project-image">
+            <img src="autoparkgui.jpeg" alt="Auto Park GUI">
+            <div class="project-overlay">
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">MVC</span>
+                    <span class="tech-tag">GUI</span>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <h3>Auto Park GUI</h3>
+            <p>A GUI using Model, View, Controller [MVC] with Java</p>
+            <div class="project-links">
+                <a href="https://github.com/dianeoxales/AutoPark-GUI" class="project-link github">
+                    <i class="fab fa-github"></i>
+                    Source Code
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <!-- My Experiences -->
+    <section id="experience" class="experience-section">
+        <div class="experience-container">
+            <h2 class="section-title">Relevant Work Experience</h2>
+
+            <div class="timeline">
+                <!-- Current Roles -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-date">
+                        <span>09/25 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <h3>STEM Outreach Instructor</h3>
+                                <span class="company">Virtual Ventures</span>
+                            </div>
+                            <div class="card-body">
+                                <p>Deliver Outreach activities, workshops, and after-school sessions to provide an understanding of engineering and technical knowledge. </p>
+                                <div class="skills-used">
+                                    <span class="skill-tag">Adaptability</span>
+                                    <span class="skill-tag">Familiarity with Technology</span>
+                                    <span class="skill-tag">Leadership</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="timeline">
+                <!-- Current Roles -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-date">
+                        <span>03/25 - Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <h3>Tutor</h3>
+                                <span class="company">Self Employed</span>
+                            </div>
+                            <div class="card-body">
+                                <p>Teach Mathematics (Grade 1-12), and Chemistry (Grade 11-12) to strengthen the understanding of students in areas of struggle. </p>
+                                <div class="skills-used">
+                                    <span class="skill-tag">Communication</span>
+                                    <span class="skill-tag">Patience</span>
+                                    <span class="skill-tag">Leadership</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div class="contact-content">
+            <div class="contact-text">
+                <p class="contact-description">I'd love to hear from you! Feel free to reach out via email or social media.</p>
+            </div>
+            
+            <div class="contact-methods">
+                <a href="mailto:dianefranceso@gmail.com" class="contact-card email">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-info">
+                        <h3>Email</h3>
+                        <p>dianefranceso@gmail.com</p>
+                    </div>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/diane-oxales-265b31342/" class="contact-card linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me</p>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/dianeoxales" class="contact-card github" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <p>Check out my repos</p>
+                    </div>
+                </a>
+            </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <div class="footer-container">
+        <div class="footer-content">
+            <p class="footer-text">Made with ❤️ by Diane Oxales</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Diane Oxales. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
